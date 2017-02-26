@@ -6,7 +6,7 @@ public class Data {
 	public Data(){ // inicia um objeto com a data atual
 		Calendar hoje = Calendar.getInstance(); 
 		dia = hoje.get(Calendar.DAY_OF_MONTH);
-		mes = hoje.get(Calendar.MONTH);
+		mes = hoje.get(Calendar.MONTH)+1;
 		ano = hoje.get(Calendar.YEAR);	
 	}
 	
@@ -36,7 +36,7 @@ public class Data {
 			case 2:
 			return "Fevereiro";
 			case 3:
-			return "MarÁo";
+			return "Mar√ßo";
 			case 4:
 			return "Abril";
 			case 5:
@@ -56,7 +56,7 @@ public class Data {
 			case 12:
 			return "Dezembro";
 			default:
-			return "Inv·lido";
+			return "Inv√°lido";
 				
 		}
 		
