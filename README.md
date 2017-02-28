@@ -1,2 +1,2 @@
 # P2
-Exercícios da dísciplina Programação II
+Exercícios da discíplina Programação II
